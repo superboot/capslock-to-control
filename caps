@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Clear the lock and assign keycode 66 (capslock) to be control.
+xmodmap <(echo 'keycode 66 = Control_L\nclear Lock\nadd Control = Control_L')
+
